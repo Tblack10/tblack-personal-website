@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .bc {
+    background-color: blue;
+    height: 100px;
+  }
+
+  .rc {
+    background-color: red;
+    height: 100px;
+  }
