@@ -19,7 +19,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Welcome!',
+        title: 'Travis Black',
         name: 'Travis Black'
     })
 })
@@ -48,7 +48,7 @@ app.get('/privacyPolicy', (req, res) => {
 
 app.get('/applications', (req, res) => {
     res.render('applications', {
-        title: 'Applications',
+        title: 'My Apps',
         name: 'Travis Black'
     })
 })
