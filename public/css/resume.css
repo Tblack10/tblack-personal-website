@@ -21,3 +21,7 @@
     height: 240px;
     text-align:center;
   }
+
+  .skills {
+    line-height: .8;
+  }

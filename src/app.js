@@ -1,6 +1,7 @@
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
+const paymentMethods =  require('./constants.js')
 
 const app = express()
 const port = process.env.PORT || 3000
@@ -17,10 +18,12 @@ hbs.registerPartials(partialsPath)
 //static directory init
 app.use(express.static(publicDirectoryPath))
 
+
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Travis Black',
-        name: 'Travis Black'
+        name: 'Travis Black',
+        subtitle: 'Junior iOS Developer'
     })
 })
 
@@ -35,7 +38,7 @@ app.get('/resume', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Travis Black',
+        name: 'Travis Black'
     })
 })
 
@@ -56,7 +59,11 @@ app.get('/applications', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('contact', {
         title: 'Contact Me',
-        name: 'Travis Black'
+        name: 'Travis Black',
+        email: 'travisb.dev@gmail.com',
+        github: 'https://github.com/Tblack10',
+        linkedin: 'www.linkedin.com/in/travis--black',
+        appStore: 'https://apps.apple.com/us/developer/travis-black/id1445267343'
     })
 })
 
