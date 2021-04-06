@@ -53,4 +53,16 @@ header a {
     line-height: 30px;
 }
 
+.app-desc {
+    font-size: 14px;
+    font-weight: 500;
+}
 
+h3 {
+    color: #5EB1BF;
+}
+
+ li {
+     font-size: 14px;
+     line-height: 3vh;
+ }

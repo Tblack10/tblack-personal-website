@@ -15,13 +15,22 @@
   .bc {
     height: 240px;
     text-align: center;
+    font-size: 14px;
+    padding-bottom: 3vh;
   }
 
   .rc {
     height: 240px;
     text-align:center;
+    font-size: 14px;
+    padding-bottom: 3vh;
+
   }
 
   .skills {
     line-height: .8;
+  }
+
+  h4 {
+    color: #5EB1BF;
   }

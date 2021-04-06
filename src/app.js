@@ -1,7 +1,6 @@
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
-const paymentMethods =  require('./constants.js')
 
 const app = express()
 const port = process.env.PORT || 3000
