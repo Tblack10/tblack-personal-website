@@ -1,0 +1,8 @@
+@media all and (max-width: 1000px) {
+    #frameworks {
+        height: 25vh;
+    }
+    #toolsAndPlatforms {
+        height: 30vh;
+    }
+}

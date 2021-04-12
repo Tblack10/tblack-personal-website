@@ -4,64 +4,51 @@
     <head>
         <title>TB</title>
         <link rel='stylesheet' href='/css/styles.css'>
-        <link rel='stylesheet' href='/css/resume.css'>
+        <link rel='stylesheet' href='/css/index.css'>
     </head>
 
     <body>
         <div class="main-content">
             {{>header}}
-
+        <div>
             <div>
                 <h3>Who am I?</h3>
                 <p id="whoAmI">Thanks for stopping by! I'm Travis Black, a Junior Mobile Developer. Practical experience developing and deploying projects in teams of various sizes, combined with an education at BCIT has prepared me for the many challenges that lay ahead.</p>
             </div>
-            
-            <div>
-                <h3>Technologies I'm Familiar With</h3> 
-
-                <div class="row">
-                    <div class="column">
-                        <div class="bc skills">
-                            <h4>Programming Languages</h4>
-                            <p>Swift</p>
-                            <p>Java</p>
-                            <p>C++</p>   
-                            <p>C#</p>   
-                            <p>C</p>
-                            <p>HTML/CSS</p>   
-                        </div>
+            <h3>Technologies I'm Familiar With</h3> 
+            <div class="flex-container">    
+                    <div class="flex-item">
+                        <h4>Programming Languages</h4>
+                        <p>Swift</p>
+                        <p>Java</p>
+                        <p>C++</p>   
+                        <p>C#</p>   
+                        <p>C</p>
+                        <p>HTML/CSS</p>   
                     </div>
-                    <div class="column">
-                        <div class="rc skills">
-                            <h4>Frameworks</h4>
-                            <p>UIKit, CoreData, MapKit</p>
-                            <p>Node.js</p>
-                            <p>ASP.net</p>
-                            <p>JSF / EJB / JPA</p>
-                        </div>
+                    <div class="flex-item" >
+                        <h4>Frameworks</h4>
+                        <p>UIKit, CoreData, MapKit</p>
+                        <p>Node.js</p>
+                        <p>ASP.net</p>
+                        <p>JSF / EJB / JPA</p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <div class="bc skills">
-                                <h4>Tools and Platforms</h4>
-                                <p>Visual Studio Code</p>
-                                <p>XCode</p>
-                                <p>macOS</p>
-                                <p>Heroku / DigitalOcean / Azure</p>
-                                <p>git</p>
-                        </div>
+                    <div class="flex-item" >
+                        <h4>Tools and Platforms</h4>
+                        <p>Visual Studio Code</p>
+                        <p>XCode</p>
+                        <p>macOS</p>
+                        <p>Heroku / DigitalOcean / Azure</p>
+                        <p>git</p>
                     </div>
-                    <div class="column">
-                        <div class="rc skills">
-                                <h4>Databases</h4>
-                                <p>MySQL</p>
-                                <p>MongoDb</p>
-                                <p>Firebase</p>
-                        </div>
+                    <div class="flex-item" >
+                        <h4>Databases</h4>                                   
+                        <p>MySQL</p>
+                        <p>MongoDb</p>
+                        <p>Firebase</p>
                     </div>
-                </div>
-                {{>footer}}
+            </div>
+             {{>footer}}
         </div>
     </body>
 </html>
