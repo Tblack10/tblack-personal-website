@@ -7,8 +7,17 @@ body {
 }
 
 h4 {
-    color: #5EB1BF;
     font-size: 1.5em;
+    color: slateblue;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1.25em;
+    color: slateblue;
 }
 
 footer {
@@ -57,12 +66,12 @@ header a {
 }
 
 h3 {
-    color: #5EB1BF;
-    font-size: 2.5em;
+    font-size: 2em;
+    color: slateblue;
 }
 
 li {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 3vh;
 } 
 
@@ -75,7 +84,26 @@ li {
 }
 
 .flex-item {
-    width: 50%;
+    width: 45%;
+    padding: 2%;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:visited {
+    color: #333333;;
+}
+
+a:hover {
+    
+}
+
+a:active {
+   
 }
 
 @media all and (max-width: 1000px) {

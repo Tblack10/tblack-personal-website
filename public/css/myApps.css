@@ -1,11 +1,11 @@
 .app-desc h3 {
     font-size: 1.75em;
-    color: slateblue;
+    color: #333333;
 }
+
 .app-desc {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     line-height: 1.5;
-    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -20,6 +20,33 @@ li {
     text-align: left; 
     width:100%; 
     font-size: 2.2em;
+}
+
+#subtitle {
+    margin-top: 0px; 
+    padding-top: 0px;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+h4 + p {
+    color: rebeccapurple;
+}
+
+#closing {
+    margin-top: 10%;
+}
+
+.flex-item-apps {
+    width: 100%;
+    text-align: center;
+}
+
+.description {
+    margin-top: 0px;
+    margin-bottom: 6%;
 }
 
 @media all and (max-width: 1000px) {

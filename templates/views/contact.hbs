@@ -9,14 +9,14 @@
     <body>
         <div class="main-content">
             {{>header}}
-            <h3>Email</h3>
-            <p>{{email}}</p>
-            <h3>AppStore</h3>
-            <p>{{appStore}}</p>
-            <h3>GitHub</h3>
-            <p>{{github}}</p>
-            <h3>LinkedIn</h3>
-            <p>{{linkedin}}</p>
+            <h6>Email</h6>
+            <a href={{email}} target="_blank"><p>{{email}}</p></a>
+            <h6>AppStore</h6>
+            <a href={{appStore}} target="_blank"><p>{{appStore}}</p></a>
+            <h6>GitHub</h6>
+            <a href={{github}} target="_blank"><p>{{github}}</p></a>
+            <h6>LinkedIn</h6>
+            <a href={{linkedin}} target="_blank"><p>{{linkedin}}</p></a>
         </div>
         
         {{>footer}}
