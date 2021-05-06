@@ -66,6 +66,12 @@ app.get('/applications/artHaikuVancouver', (req, res) => {
     })
 })
 
+app.get('/applications/propdrop', (req, res) => {
+    res.render('propDrop', {
+        name: 'Travis Black'
+    })
+})
+
 app.listen(port, () => {
     console.log('Server is up on port 3000')
 })
