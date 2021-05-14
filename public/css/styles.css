@@ -118,10 +118,10 @@ a:active {
         flex-direction: column;
     }
 
-    #whoAmI {
+    /* #whoAmI {
         font-size: 2em;
         line-height: 1.5em;
-    }
+    } */
 
     .flex-container {
         display: flex;
