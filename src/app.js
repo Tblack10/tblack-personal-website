@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
     res.render('index', {
         title: 'Travis Black',
         name: 'Travis Black',
-        subtitle: 'Junior Software Developer'
+        subtitle: 'Junior Software Engineer'
     })
 })
 
