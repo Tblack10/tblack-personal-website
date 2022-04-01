@@ -57,7 +57,7 @@ header a {
 
 #whoAmI {
     line-height: 30px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .app-desc {
@@ -88,22 +88,18 @@ li {
     padding: 2%;
 }
 
-
 a:link {
     text-decoration: none;
     color: #333333;
+    font-size: 1.2em;
 }
 
 a:visited {
     color: #333333;;
 }
 
-a:hover {
-    
-}
-
-a:active {
-   
+h4 ~ p {
+    font-size: 1.2em;
 }
 
 @media all and (max-width: 1000px) {

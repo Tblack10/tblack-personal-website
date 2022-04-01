@@ -1,6 +1,10 @@
 .app-desc h3 {
-    font-size: 1.75em;
+    font-size: 1.7em;
     color: #333333;
+}
+
+.app-desc h3:hover {
+    color: #807171;
 }
 
 .app-desc {
