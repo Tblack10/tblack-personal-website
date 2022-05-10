@@ -60,6 +60,12 @@ app.get('/applications/elementaryTicTacToe', (req, res) => {
     })
 })
 
+app.get('/applications/vanvotes', (req, res) => {
+    res.render('vanvotes', {
+        name: 'Travis Black'
+    })
+})
+
 app.get('/applications/artHaikuVancouver', (req, res) => {
     res.render('artHaiku', {
         name: 'Travis Black'

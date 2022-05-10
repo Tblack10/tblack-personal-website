@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>VanVotes</title>
+        <link rel='stylesheet' href='/css/styles.css'>
+        <link rel='stylesheet' href='/css/myApps.css'>
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <div class="flex-container">    
+                <div class="flex-item">
+                    <div class="flex-item-apps app-desc" >
+                        <h4>VanVotes</h4>    
+                            <p id="subtitle">See how Vancouver Council votes</p>
+                            <p>
+                                VanVotes is an open source application that allows you to see how and when Vancouver City Council votes. For more information on individual minutes click the link below. 
+                            </p>       
+                            <p class="closing">
+                                Hopefully this application makes it easier to stay informed. Thanks for checking it out, and if you'd like to contribute the github link is below!
+                            </p>
+                            <p>
+                                <a class="aLink" href="https://covapp.vancouver.ca/councilMeetingPublic/CouncilMeetings.aspx" rel="noopener" target="_blank"> 
+                                    Vancouver Meeting Minutes
+                                </a> 
+                                <br>
+                                <a class="aLink" href="https://github.com/Tblack10/VanVotes" rel="noopener" target="_blank">
+                                    VanVotes GitHub
+                                </a> 
+                            </p>
+                    </div>
+            </div>
+        </div>
+        
+        {{>footer}}
+    </body>
+</html>
+ 
