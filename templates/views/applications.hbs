@@ -1,117 +1,130 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>My Apps</title>
-        <link rel='stylesheet' href='/css/styles.css'>
-        <link rel='stylesheet' href='/css/myApps.css'>
-    </head>
 
-    <body>
-        <div>
-            {{>header}}
-            
-            <div class="flex-container">
-                <h3 class="type-of-app"> Mobile Applications </h3>
-                    <div class="app-desc flex-item">
-                        <a href="https://www.roomrabbit.ca">
-                            <h3>RoomRabbit (iOS)</h3>
-                        </a>
-                        <p> A housing platform to help students find affordable rentals.</p>
-                        <ul>
-                            <li>Swift, C#</li>
-                            <li>UIKit, MapKit</li>
-                            <li>ASP.net</li>
-                            <li>AzureSQL</li>
-                            <li>Stripe Integration</li>
-                        </ul>
-                    </div>  
-                    <div class="app-desc flex-item">
-                        <a href="https://github.com/Tblack10/VanVotes">
-                            <h3>VanVotes (iOS)</h3>
-                        </a>
-                        <p> Helping vancouverites stay informed on local politics.</p>
-                        <ul>
-                            <li>Swift#</li>
-                            <li>UIKit, User Notifications</li>
-                            <li>Node.js</li>
-                            <li>MongoDB</li>
-                            <li>City of Vancouver's Open Data API</li>
-                        </ul>
-                    </div>  
-                    <div class="app-desc flex-item">
-                        <a href="https://apps.apple.com/ca/app/arthaikuvancouver/id1556991819">
-                            <h3>ArtHaiku (iOS)</h3>
-                        </a>
-                        <p>Allows vancouverites find hidden works of art in their backyard</p>
-                        <ul>
-                            <li>Swift</li>
-                            <li>UIKit, MapKit</li>
-                            <li>CoreData</li>
-                            <li>City of Vancouver's Open Data API</li>
-                        </ul>
-                    </div>
-                    <div class="app-desc flex-item">
-                         <a href="https://apps.apple.com/ca/app/propdrop/id1565884910">
-                            <h3>PropDrop (iOS)</h3>
-                        </a>
-                        <p>Designed for film technicians with a need to stay organized.</p>
-                        <ul>
-                            <li>Swift</li>
-                            <li>UIKit</li>
-                            <li>CoreData</li>
-                        </ul>
-                    </div> 
-                  <div class="app-desc flex-item">
-                        <a href="https://github.com/Tblack10/WaitingRoom">
-                            <h3>WaitingRoom (Android)</h3>
-                        </a>
-                        <p>Skip the line, save time.</p>
-       
-                        <ul>
-                            <li>Java</li>
-                            <li>Firebase</li>
-                        </ul>
-                    </div>  
-                    <h3 class="type-of-app">Web Applications</h3>
-                    <div class="app-desc flex-item">
-                        <a href="https://github.com/Tblack10/CDEye_PMAuto">
-                            <h3>CDEye Project Managment</h3>
-                        </a>
-                            <p>Managment system for employees, budgets, and timesheets.</p>
-                            <ul>
-                                <li>JSF / JEE / JPA</li>
-                                <li>SQL</li>
-                                <li>Wildfly</li>
-                            </ul>
-                    </div>
-                    <div class="app-desc flex-item">
-                        <a href="https://github.com/medhatelmasry/ASPect">
-                            <h3>ASPect</h3>
-                        </a>
-                            <p>
-                                An open source platform to help teachers and students with 
-                                organization during COVID times
-                            </p>
-                            <ul>
-                                <li>ASP.net Core</li>
-                                <li>Blazor</li>
-                                <li>AzureSQL</li>
-                            </ul>
-                    </div>
-                    <div class="app-desc flex-item">
-                        <a href="https://github.com/Tblack10/tblack-personal-website">
-                            <h3 >TravisBlack.com</h3>
-                        </a>
-                        <p>A Personal Project, all about me! Travis Black</p>
-                        <ul>
-                            <li>HTML/CSS</li>
-                            <li>node.js</li>
-                            <li>Deployed using Digital Ocean</li>
-                        </ul>
-                    </div>
+<head>
+    <title>My Apps</title>
+    <link rel='stylesheet' href='/css/styles.css'>
+    <link rel='stylesheet' href='/css/myApps.css'>
+</head>
+
+<body>
+    <div>
+        {{>header}}
+
+        <div class="flex-container">
+            <h3 class="type-of-app"> Available on the App Store </h3>
+            <div class="app-desc flex-item">
+                <a href="https://github.com/Tblack10/VanVotes" rel="noopener" target="_blank">
+                    <h3>VanVotes (iOS)</h3>
+                </a>
+                <p> Helping vancouverites stay informed on local politics.</p>
+                <ul>
+                    <li>Swift#</li>
+                    <li>UIKit, User Notifications</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                    <li>City of Vancouver's Open Data API</li>
+                </ul>
+            </div>
+            <div class="app-desc flex-item">
+                <a href="https://apps.apple.com/ca/app/arthaikuvancouver/id1556991819" rel="noopener" target="_blank">
+                    <h3>ArtHaiku (iOS)</h3>
+                </a>
+                <p>Helping vancouverites find hidden art in their backyard</p>
+                <ul>
+                    <li>Swift</li>
+                    <li>UIKit, MapKit</li>
+                    <li>CoreData</li>
+                    <li>City of Vancouver's Open Data API</li>
+                </ul>
+            </div>
+            <div class="app-desc flex-item">
+                <a href="https://apps.apple.com/ca/app/propdrop/id1565884910" rel="noopener" target="_blank">
+                    <h3>PropDrop (iOS)</h3>
+                </a>
+                <p>Designed for film technicians with a need to stay organized.</p>
+                <ul>
+                    <li>Swift</li>
+                    <li>UIKit</li>
+                    <li>CoreData</li>
+                </ul>
+            </div>
+            <div class="app-desc flex-item">
+                <a href="https://apps.apple.com/ca/app/elementary-tictactoe/id1445267344" 
+                rel="noopener" target="_blank">
+                    <h3>Elementary ticTactoe (iOS)</h3>
+                </a>
+                <p>A classic take on a classic.</p>
+                <ul>
+                    <li>Swift</li>
+                    <li>UIKit</li>
+                </ul>
+            </div>
+            <h3 class="type-of-app"> Other Projects </h3>
+            <div class="app-desc flex-item">
+                <a href="https://www.roomrabbit.ca" rel="noopener" target="_blank">
+                    <h3>RoomRabbit (iOS)</h3>
+                </a>
+                <p> A housing platform to help students find affordable rentals.</p>
+                <ul>
+                    <li>Swift, C#</li>
+                    <li>UIKit, MapKit</li>
+                    <li>ASP.net</li>
+                    <li>AzureSQL</li>
+                    <li>Stripe Integration</li>
+                </ul>
+            </div>
+            <div class="app-desc flex-item">
+                <a href="https://github.com/Tblack10/WaitingRoom" rel="noopener" target="_blank">
+                    <h3>WaitingRoom (Android)</h3>
+                </a>
+                <p>Skip the line, save time.</p>
+
+                <ul>
+                    <li>Java</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+            <div class="app-desc flex-item">
+                <a href="https://github.com/Tblack10/CDEye_PMAuto" rel="noopener" target="_blank">
+                    <h3>Project Manager (Web)</h3>
+                </a>
+                <p>Managment system for employees, budgets, and timesheets.</p>
+                <ul>
+                    <li>JSF / JEE / JPA</li>
+                    <li>SQL</li>
+                    <li>Wildfly</li>
+                </ul>
+            </div>
+            <div class="app-desc flex-item">
+                <a href="https://github.com/medhatelmasry/ASPect" rel="noopener" target="_blank">
+                    <h3>ASPect (Web)</h3>
+                </a>
+                <p>
+                    An open source platform to help teachers and students with
+                    organization during COVID times
+                </p>
+                <ul>
+                    <li>ASP.net Core</li>
+                    <li>Blazor</li>
+                    <li>AzureSQL</li>
+                </ul>
+            </div>
+            <div class="app-desc flex-item">
+                <a href="https://github.com/Tblack10/tblack-personal-website" rel="noopener" target="_blank">
+                    <h3>TravisBlack.com (Web)</h3>
+                </a>
+                <p>A Personal Project, all about me! Travis Black</p>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>node.js</li>
+                    <li>Deployed using Digital Ocean</li>
+                </ul>
             </div>
         </div>
-        {{>footer}}
-    </body>
+    </div>
+    {{>footer}}
+</body>
+
 </html>
