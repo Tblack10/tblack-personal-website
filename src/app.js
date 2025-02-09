@@ -66,6 +66,12 @@ app.get('/applications/vanvotes', (req, res) => {
     })
 })
 
+app.get('/applications/dtr', (req, res) => {
+    res.render('dtr', {
+        name: 'Travis Black'
+    })
+})
+
 app.get('/applications/artHaikuVancouver', (req, res) => {
     res.render('artHaiku', {
         name: 'Travis Black'
